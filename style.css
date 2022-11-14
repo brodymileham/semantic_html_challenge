@@ -1,0 +1,62 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 10px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-style: solid;
+  border-color: #800080;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+  background-image: url(/assets/noise.png);
+  height: 40px;
+
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+  background-image: url(/assets/noise.png);
+  height: 40px;
+}
+
+th {
+  font-family: 'Rock Salt', cursive;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+
+tfoot td {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+
+thead tr, tfoot tr {
+  background-image: url(/assets/leopardskin.jpg);
+  background-size: cover;
+  color: white;
+  height: 75px;
+  border-right-style: solid;
+}
+
+tfoot td {
+  padding: 20px;
+}
+
+#gradient {
+  
+}
+
+h1 {
+  font-family: 'Rock Salt', curive;
+  font-size: 1rem;
+  text-align: right;
+}
+
+
+
